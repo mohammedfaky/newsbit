@@ -1,0 +1,273 @@
+body{
+    margin: 0;
+    font-family: "Libre Franklin", sans-serif;
+    background-color: #fff;
+}
+/* start sction */
+.fs{
+    font-size: 12px;
+}
+.link:hover{
+  color: black;
+}
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 0
+  }
+
+  .drop{
+    transform: translate(16px ,-11px);
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 40%;
+    box-shadow: 1px 1px 11px -5px #80808070;
+    z-index: 1;
+}
+.drop li{
+    border-bottom: 1px solid #8080803b;
+}
+.drop li:hover{
+    background-color: #8080803b;
+}
+.wraper-ul li:hover .drop{
+    display: block;
+}
+.wraper-ul li a i{
+    
+
+}
+.news-title{
+    font-size: 18px;
+    line-height: 28px;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    position: relative;
+}
+.before{
+ position: absolute;
+ left: 0;
+ bottom: -2px;
+ width: 30px;
+ height: 2px;
+ background-color: red;
+}
+.fs1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.fs2{
+    font-size: 14px;
+}
+.fs3{
+    font-size: 13px;
+}
+.bglight{
+    background-color: #a1d4cf;
+}
+.bgblack{
+    background-color: black;
+    width: 100% ;
+    height: 100%; 
+    opacity: .5;
+}
+.z-index{
+    z-index: 1000;
+}
+.z-index small >a span:hover{
+    color: #dc3545;
+}
+.transform-img{
+    transform: translate(0px, -80px);
+}
+.btn-secondary:hover{
+    background-color: #dc3545;
+}
+.btn-secondary:hover svg ,.btn-secondary:hover span{
+    color: #fff;
+}
+small span a:hover{
+	color: red !important;
+}
+.card h5:hover a{
+	color:red !important;
+}
+h1{
+	font-weight: 900;
+	color: #173ac4;
+}
+
+h1:before{
+    content: "";
+    color:#1174f0;
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 4;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    animation: animate 6s infinite;
+}
+.mb4{
+	margin-top: 22px;
+}
+.mt4{
+	margin-top: -8px;
+}
+.editor-h1:before{
+	content: "EDITOR PICKS";
+}
+.tech-h1:before{
+	content: "TECH";
+}
+
+.Beautyt-h1:before{
+	content: "BEAUTY BLOG";
+}
+.tour-h1:before{
+	content: "TOUR";
+}
+.game-h1:before{
+	content: "Game";
+}
+.health-h1:before{
+	content: "HEALTH";
+}
+.latest-h1:before{
+	content: "LATEST ARTICLES";
+}
+.top-authors-h1:before{
+	content: "TOP AUTHORS";
+}
+.stay-in-h1:before{
+	content: "STAY IN TOUCH";
+}
+.hot-news-h1:before{
+	content: "HOT NEWS";
+}
+@keyframes animate {
+    0% {
+    height: 25%;
+    }
+    25%{
+        height: 50%;
+        
+    }
+    50%{
+        height: 65%;
+        
+    }
+    75%{
+        height: 40%;
+        
+    } 
+    100%{
+        height: 15%;
+       
+        
+    }
+}
+.editorpics {
+	border-bottom: 2px solid #d2cece;
+}
+h1,
+h2{
+	font-size: 18px;
+}
+.next-previous a{
+	background-color:#1174f0;
+}
+.editorpics:before{
+	content: "";
+	border: 1px solid #173ac4;
+	position: absolute;
+	top:38px;
+	width: 5%;
+}
+.editorpics a{
+	padding: 0.40rem 1.2rem;
+	line-height: 2;
+}
+.stay-in-touch ,.hot-news{
+	border-bottom: 2px solid #d2cece;
+}
+.border-befor:before{
+	content: "";
+	border: 1px solid #173ac4;
+	position: absolute;
+	top: 38px;
+	width: 7%;
+}
+.border-befor2:before{
+	content: "";
+	border: 1px solid #173ac4;
+	position: absolute;
+	top: 37px;
+	width: 9%;
+}
+.icons{
+	width: 100%;
+	max-width: 1200px;
+	text-align:center ;
+	padding: 1.4rem 0;
+}
+.icons .social{
+	display: inline-block;
+	width: 46px;
+	height: 46px;
+	background: #fff;
+	box-shadow: 0 5px 15px -5px #aaa;
+	margin: 4px;
+	border-radius: 30%;
+	overflow: hidden;
+	position: relative;
+	content: #42d2ff;
+}
+.icons .svg-inline--fa {
+  display: var(--fa-display,inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.4rem
+  }
+.icons a svg{
+	position: relative;
+
+}
+.icons .social:before{
+	content: "";
+	position: absolute;
+	width: 120%;
+	height: 120%;
+	background: linear-gradient(#00c6ff , #0072ff);
+	transform: rotate(45deg);
+	left: -110%;
+	top: 90%;
+}
+ .social:hover  {
+	color: white;
+	transform: scale(1.3);
+}
+.icons .social:hover:before{
+	animation: onHover 0.7s 1;
+	left: -10%;
+	top: -10%;
+}
+@keyframes onHover{
+	0%{
+		left: -110%;
+		top: 90%;
+	}
+	50%{
+		left: 10%;
+		top: -30%;
+	}
+	100%{
+		left: -10%;
+		top: -10%;
+	}
+}
+/* end section */

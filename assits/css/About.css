@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: "Libre Franklin", sans-serif;
+    color: #575769;
+}
+.ped > p{
+    line-height: 26px;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    color: #666;
+    font-weight: 400;
+    letter-spacing: 0.3;
+    word-wrap: break-word;
+    padding-right: 15;
+}
+.i{
+    font-size: 10px;
+    padding: 0px 4px;
+}
+.lin{
+    text-decoration:solid;
+    color: #dc3545;
+    transition: 0.3s;
+}
+.lin:hover{
+    color: black;
+}
+.section-padding {
+    padding: 70px 0;
+}
+.con{
+    width: 50%;
+}
+.con2{
+    width: 50%;
+}
+.con3{
+    width: 100%;
+    float: inherit;
+}
+.con4 > h3{
+    font-size: 22px;
+}
+.i-s{
+    border-radius: 4px;
+}
+.i-s2{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+.ped > h2{
+    font-size: 28px;
+    line-height: 36px;
+    margin: 0 0 24 0;
+    color: #1c1c1c;
+    font-weight: 700;
+}
+.ped > h3{
+    color: #1c1c1c;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: -0.48px;
+}
